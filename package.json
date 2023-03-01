@@ -1,0 +1,25 @@
+{
+  "name": "ventanas-modalesss-guillecastan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "scp -P 22123 /home/alumno/Escritorio/javascript/ventanas-modalesss-GuilleCastan/* guillermo@guillermo.certweb.infenlaces.com:/home/guillermo/guillermophp/sitiophp/ventanas-modales/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPILE-INAEM/ventanas-modalesss-GuilleCastan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CPILE-INAEM/ventanas-modalesss-GuilleCastan/issues"
+  },
+  "homepage": "https://github.com/CPILE-INAEM/ventanas-modalesss-GuilleCastan#readme",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.4"
+  }
+}
