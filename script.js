@@ -8,19 +8,17 @@ const MODAL = document.querySelector(".modal");
 console.log(SHOWBUTTONS, CLOSEBUTTON, OVERLAY, MODAL);
 
 //Funciones
-function showModal() {
+const showModal = function () {
   MODAL.classList.remove("hidden");
   OVERLAY.classList.remove("hidden");
-}
+};
 
-function closeModal() {
+const closeModal = function () {
   MODAL.classList.add("hidden");
   OVERLAY.classList.add("hidden");
-}
+};
 
-//Añadir funcionalidades
-SHOWBUTTONS.forEach((element) => {
-  element.addEventListener("click", showModal);
-});
-
+//Definir eventos
+SHOWBUTTONS.forEach((element) => element.addEventListener("click", showModal));
 CLOSEBUTTON.addEventListener("click", closeModal);
+OVERLAY.addEventListener("click", closeModal);
